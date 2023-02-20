@@ -1449,7 +1449,7 @@
 
 
 
-@media (max-width: 375px){
+@media screen and (max-width: 375px){
 
     header{
         height: 812px;
