@@ -13,7 +13,7 @@ function slideSpecialists(count){
     
 }
 
-$( '.specialists__nav' ).find( '.specialistsLeft' ).on('click touchstart', function(){
+$( '.specialists__nav' ).find( '.specialistsLeft' ).on('touchstart', function(){
     if(specialistsCounter <= 0){
         specialistsCounter = 2;
     } else {
@@ -23,7 +23,7 @@ $( '.specialists__nav' ).find( '.specialistsLeft' ).on('click touchstart', funct
     slideSpecialists(specialistsCounter);
 })
 
-$( '.specialistsRight' ).on('click touchstart', function(){
+$( '.specialistsRight' ).on('touchstart', function(){
     if(specialistsCounter >= 2){
         specialistsCounter = 0;
     } else {
