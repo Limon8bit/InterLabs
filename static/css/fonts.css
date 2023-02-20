@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "PFHBPro100";
+    src: url("../fonts/PFHandbookPro-ExtraThin.woff2");
+}
+
+@font-face {
+    font-family: "PFHBPro300";
+    src: url("../fonts/PFHandbookPro-Light.woff2");
+}
+
+@font-face {
+    font-family: "PFHBPro500";
+    src: url("../fonts/PFHandbookPro-Medium.woff2");
+}
+
+@font-face {
+    font-family: "PFHBPro700";
+    src: url("../fonts/PFHandbookPro-Bold.woff2");
+}
